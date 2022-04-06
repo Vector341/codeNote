@@ -1,3 +1,4 @@
+```nginx
 
 #user  nobody;
 worker_processes  1;
@@ -146,3 +147,6 @@ http {
     #}
     include servers/*;
 }
+
+```
+

@@ -1,4 +1,4 @@
-generator 使用 * (asterisk) 标识，内部有状态 suspended closed
+generator 使用 * (asterisk) 标识，内部有状态 (suspended closed 等）
 
 ```js
 function *generator() {}
