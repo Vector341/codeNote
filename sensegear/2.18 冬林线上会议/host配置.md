@@ -47,3 +47,12 @@ host 文件配置：
 10.142.6.31 passport-dev.sensegear.sensetime.com # 登录模块
 ```
 
+```
+# Y-计划 2022/3/2
+10.198.44.90 passport.aicp.sensetime.com     
+10.198.44.90 dev.passport.y.sensetime.com
+10.198.44.90 dev.console.y.sensetime.com
+10.198.44.90 dev.monitorboard.y.sensetime.comdev.storage.y.sensetime.com
+```
+
+10.142.6.31 passport.aicp.sensetime.com
