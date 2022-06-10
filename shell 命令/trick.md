@@ -17,3 +17,7 @@ cat filename | pbcopy
 
 
 设置 $CDPATH
+
+
+
+%的特殊含义 PS1=% 会有特殊效果

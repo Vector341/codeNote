@@ -26,6 +26,7 @@ MacBook Air M1, 2020
 
 ```
 brew services restart nginx
+brew services start nginx
 ```
 
 启动后的其他操作如下
