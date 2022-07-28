@@ -1,0 +1,26 @@
+WebPortal首页 petrel.y.sensetime.com
+测试账号：
+身份	用户名	密码	备注
+超级管理员	tangyu@sensetime.com	Goodlab28*	
+系统管理员	yiqi@sensetime.com	
+	
+
+	
+	
+运维管理员	yanglei@sensetime.com	
+	
+A组长	yangyi@sensetime.com	
+	
+A组员	wangpei@sensetime.com	
+	
+A组员	zhangkaipeng@sensetime.com	
+	
+B组长	zhaowangbo@sensetime.com	
+	
+B组员	panyue@sensetime.com	
+	
+B组员	
+
+zhangjun@sensetime.com
+	
+	

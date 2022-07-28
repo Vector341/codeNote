@@ -1,3 +1,5 @@
+# 导出变量与子shell
+
 当你登陆系统后，得到的都是 shell 程序的全新副本（称为**登陆shell**），它维护你所用的环境变量（针对每个用户都不同）
 
 当 登陆shell 执行脚本时，他会启动一个新shell来执行该程序（称为**子shell**），它拥有自己的环境变量
@@ -59,15 +61,47 @@ zhuyifei@cn3614001596m ~ %
 
 
 
-
-
 ## source OR dot(.)
 
 将某个文件的命令加载到当前shell执行，这样可以使赋值的变量在子程序运行完毕后保存
 
+```sh
+zhuyifei@cn3614001596m childShell % . ./db
+```
 
 
-## (...) { ... }
+
+## shell 脚本启动子shell 接受输入
+
+```sh
+HOME=/Users/Shared
+BIN=$HOME/bin
+
+PATH=$PATH$BIN
+CDPATH=:$HOME:$BIN
+
+PS1=DB:
+
+export HOME BIN PATH CDPATH PS1
+
+/bin/sh # 启动子shell
+exec /bin/sh # 或用 /bin/sh替换当前shell
+```
+
+执行输出
+
+```sh
+zhuyifei@cn3614001596m childShell % ./db
+DB:echo $HOME
+/Users/Shared
+DB:exit
+exit
+zhuyifei@cn3614001596m childShell % 
+```
+
+
+
+## (...) { ...; }
 
 将命令写在括号中形成一个命令组
 
